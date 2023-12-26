@@ -1,6 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
@@ -9,25 +7,28 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>pro03-module-java</artifactId>
+    <artifactId>maven_demo_module_show</artifactId>
+    <packaging>pom</packaging>
+
+    <name>maven_demo_module_show</name>
+    <url>http://maven.apache.org</url>
+    <modules>
+        <module>module_web</module>
+        <module>module_web_maven_simple</module>
+        <module>module_component_jar</module>
+        <module>maven_dependency_jar</module>
+    </modules>
 
     <properties>
-        <maven.compiler.source>8</maven.compiler.source>
-        <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
+            <version>3.8.1</version>
             <scope>test</scope>
         </dependency>
-        <dependency>
-            <groupId>org.example</groupId>
-            <artifactId>maven_demo_module_show</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
     </dependencies>
-
 </project>

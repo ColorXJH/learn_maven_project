@@ -11,7 +11,7 @@
     <packaging>pom</packaging>
 
     <name>maven_demo_module_show</name>
-    <url>http://maven.apache.org</url>
+    <url>https://maven.apache.org</url>
     <modules>
         <module>module_web</module>
         <module>module_web_maven_simple</module>

@@ -12,6 +12,7 @@
         <module>pro03-module-java</module>
         <module>pro04-module-web</module>
         <module>maven_demo_module_show</module>
+        <module>hellos-maven-plugin</module>
     </modules>
 
     <properties>
